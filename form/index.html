@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="enter your name"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="enter your email"
+        />
+        <label for="number">Age</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          placeholder="enter your number"
+        />
+        <label for="role">Which option is best describe you</label>
+        <select name="role" id="role">
+          <option >select your profossion</option>
+          <option value="Intern">Intern</option>
+          <option value="artist">Artist</option>
+          <option value="profeser">Profecer</option>
+          <option value="medium">Medium</option>
+        </select>
+
+        <label>Please select your gender</label>
+        <div> 
+            <input type="radio" id="Male" value="Male" name="gender" />
+            <label for="Male">Male</label>
+        </div>
+        <div><input type="radio" id="Female" value="Female" name="gender" />
+            <label for="Female">Female</label>
+        </div>
+        <div><input type="radio" id="Other" value="Other" name="gender" />
+            <label for="Other">Other</label>
+        </div>
+
+        <label>Please select your programing languge</label>
+        <div>
+            <input type="checkbox" id="Pythan" value="Pythan" name="languge" />
+            <label for="Pythan">Pythan</label>
+        </div>
+        <div><input type="checkbox" id="Java" value="Java" name="languge" />
+            <label for="Java">Java</label>
+        </div>
+        <div> <input type="checkbox" id="C++" value="C++" name="languge" />
+            <label for="C++">C++</label>
+        </div>
+        <div><input type="checkbox"id="JavaScript"value="JavaScript" name="languge" />
+            <label for="JavaScript">JavaScript</label>
+        </div>
+        <div>
+            <input type="checkbox" id="React" value="React" name="languge" />
+            <label for="React">React</label>
+        </div>
+        <div><input type="checkbox" id="Ruby" value="Ruby" name="languge" />
+            <label for="Ruby">Ruby</label>       
+        </div>
+        
+        <label for="feedback">Please give your valuable suggastaion </label>
+        <textarea
+          id="feedback"
+          placeholder="enter some text here for suggastaion"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

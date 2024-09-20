@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    background-color: bisque;
+    
+}
+
+.main{
+ display: flex;
+
+} 
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin:50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+} 
+
+input,select,textarea{
+ padding: 10px;
+}
+
+button{
+    margin: 1rem;
+    padding: 0.75rem;
+    background-color: blue;
+    color: white;
+}
+label{
+    padding: auto;
+}
+
