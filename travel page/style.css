@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: border-box;
+    font-family: serif;
+    overflow:hidden ;
+}
+
+body{
+    background-image:  linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url("travel2.jpg");
+   min-height:  100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ height: 50px;
+ width: 100%;
+ position: absolute;
+ z-index: 1;
+ /* position: absolute; */
+ 
+}
+
+.nav-logo a{
+ font-size: 1.5rem;
+ font-weight: 600;
+ color:#f3f4f6
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #f3f4f6;
+    transition: 0.3s;
+}
+.nav-links:hover{
+    color: #bb701b;
+}
+
+.search-input{
+    padding: .5rem 0;
+    border-bottom:2px solid #f3f4f6;
+}
+.search-input input{
+    color: #f3f4f6;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    margin: auto;
+    padding: 2rem;
+    padding-top: 100px;
+    position: relative;  
+}
+
+.container-left , .container-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container-left content{
+ max-width: 400px;
+ display: grid;
+ gap: 1rem;
+} 
+.content h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #f3f4f6;
+    font-weight: 700;
+}
+.content p{
+    color: #f3f4f6;
+}
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+.btns button{
+    padding: 0.5rem 2rem;
+    color: #f3f4f6;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid #f3f4f6;
+    outline: none;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.btns .read-more{
+    background-color: #f3f4f6;
+    color: #333333;
+
+
+}
+
+.btns .our-blogs{
+    background-color: #f3f4f6;
+    color: #333333;
+
+}
+
+ .container-right{
+    justify-content: flex-end;
+ }
+
+form{
+    display: grid;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #ffffff33;
+    color: #f3f4f6;
+}
+    
+ form h4{
+ font-size: 1,2rem;
+ font-weight: 600;
+ padding: 2rem;
+ 
+ 
+}
+.form-group{
+    display: grid;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+.form-group input{
+    padding: .5rem;
+    font-size: 1rem;
+    color: #f3f4f6;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white
+} 
+form button{
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color:#bb701b;
+    color: #f3f4f6;
+    outline: none;
+    border: none;
+}
